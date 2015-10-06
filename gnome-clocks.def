@@ -3,6 +3,8 @@ SDK=org.gnome.Sdk
 PLATFORM=org.gnome.Platform
 SDK_VERSION=3.18
 
+MODULES="gsound gnome-clocks"
+SOURCES[gsound]="git://git.gnome.org/gsound"
 SOURCES[gnome-clocks]="git://git.gnome.org/gnome-clocks"
 
 DESKTOP_FILE=gnome-clocks.desktop
