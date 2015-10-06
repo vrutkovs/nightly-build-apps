@@ -13,6 +13,8 @@ SOURCES[geocode-glib]="git://git.gnome.org/geocode-glib"
 SOURCES[gweather]="git://git.gnome.org/libgweather"
 SOURCES[gnome-clocks]="git://git.gnome.org/gnome-clocks"
 
+CACHEPOINTS="gsound geocode-glib gweather"
+
 DESKTOP_FILE=gnome-clocks.desktop
 ICON_FILE=gnome-clocks.png
 DESKTOP_NAME_PREFIX="(Nightly) "
