@@ -1,0 +1,11 @@
+APPID=org.gnome.TerminalDevel
+SDK=org.gnome.Sdk
+PLATFORM=org.gnome.Platform
+SDK_VERSION=3.18
+
+SOURCES[gnome-clocks]="git://git.gnome.org/gnome-clocks"
+
+DESKTOP_FILE=gnome-clocks.desktop
+ICON_FILE=gnome-clocks.png
+DESKTOP_NAME_PREFIX="(Nightly) "
+COMMAND=gnome-clocks
