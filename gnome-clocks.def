@@ -3,15 +3,14 @@ SDK=org.gnome.Sdk
 PLATFORM=org.gnome.Platform
 SDK_VERSION=3.18
 
-MODULES="libcanberra gsound gnome-clocks"
+MODULES="libcanberra gsound gnome-clocks gweather"
 
 SOURCES[libcanberra]="git://git.0pointer.de/libcanberra"
 OPTS[libcanberra]=configure
 
 SOURCES[gsound]="git://git.gnome.org/gsound"
 SOURCES[gnome-clocks]="git://git.gnome.org/gnome-clocks"
-
-CACHEPOINTS="libcanberra gsound"
+SOURCES[gweather]="git://git.gnome.org/gweather"
 
 DESKTOP_FILE=gnome-clocks.desktop
 ICON_FILE=gnome-clocks.png
