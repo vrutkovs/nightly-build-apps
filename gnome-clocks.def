@@ -6,6 +6,8 @@ SDK_VERSION=3.18
 MODULES="libcanberra gsound gnome-clocks"
 
 SOURCES[libcanberra]="git://git.0pointer.de/libcanberra"
+OPTS[libcanberra]=configure
+
 SOURCES[gsound]="git://git.gnome.org/gsound"
 SOURCES[gnome-clocks]="git://git.gnome.org/gnome-clocks"
 
