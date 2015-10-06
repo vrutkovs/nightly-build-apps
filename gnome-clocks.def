@@ -3,7 +3,7 @@ SDK=org.gnome.Sdk
 PLATFORM=org.gnome.Platform
 SDK_VERSION=3.18
 
-MODULES="libcanberra gsound gnome-clocks gweather"
+MODULES="libcanberra gsound gweather gnome-clocks"
 
 SOURCES[libcanberra]="git://git.0pointer.de/libcanberra"
 OPTS[libcanberra]=configure
