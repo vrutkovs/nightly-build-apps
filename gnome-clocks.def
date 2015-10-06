@@ -9,6 +9,8 @@ SOURCES[libcanberra]="git://git.0pointer.de/libcanberra"
 SOURCES[gsound]="git://git.gnome.org/gsound"
 SOURCES[gnome-clocks]="git://git.gnome.org/gnome-clocks"
 
+CACHEPOINTS="libcanberra gsound"
+
 DESKTOP_FILE=gnome-clocks.desktop
 ICON_FILE=gnome-clocks.png
 DESKTOP_NAME_PREFIX="(Nightly) "
