@@ -9,8 +9,8 @@ SOURCES[libcanberra]="git://git.0pointer.de/libcanberra"
 OPTS[libcanberra]=configure
 
 SOURCES[gsound]="git://git.gnome.org/gsound"
-SOURCES[gnome-clocks]="git://git.gnome.org/gnome-clocks"
 SOURCES[gweather]="git://git.gnome.org/libgweather"
+SOURCES[gnome-clocks]="git://git.gnome.org/gnome-clocks"
 
 DESKTOP_FILE=gnome-clocks.desktop
 ICON_FILE=gnome-clocks.png
