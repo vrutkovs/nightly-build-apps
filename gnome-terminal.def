@@ -1,0 +1,20 @@
+APPID=org.gnome.TerminalDevel
+SDK=org.gnome.Sdk
+PLATFORM=org.gnome.Platform
+SDK_VERSION=3.18
+
+MODULES="vte gconf gnome-terminal"
+
+SOURCES[vte]="git://git.gnome.org/vte"
+CONFIGURE[vte]="--without-pcre2"
+SOURCES[gconf]="git://git.gnome.org/gconf"
+CONFIGURE[gconf]="--disable-orbit --disable-documentation"
+SOURCES[gnome-terminal]="git://git.gnome.org/gnome-terminal"
+CONFIGURE[gnome-terminal]="--without-nautilus-extension --without-pcre2 --disable-search-provider"
+
+CACHEPOINTS="vte gconf"
+
+DESKTOP_FILE=gnome-terminal.desktop
+ICON_FILE=gnome-terminal.png
+DESKTOP_NAME_PREFIX="(Nightly) "
+COMMAND=gnome-terminal
