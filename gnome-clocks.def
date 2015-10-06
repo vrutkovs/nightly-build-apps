@@ -10,7 +10,7 @@ OPTS[libcanberra]=configure
 
 SOURCES[gsound]="git://git.gnome.org/gsound"
 SOURCES[gnome-clocks]="git://git.gnome.org/gnome-clocks"
-SOURCES[gweather]="git://git.gnome.org/gweather"
+SOURCES[gweather]="git://git.gnome.org/libgweather"
 
 DESKTOP_FILE=gnome-clocks.desktop
 ICON_FILE=gnome-clocks.png
